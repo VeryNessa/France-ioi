@@ -1,3 +1,5 @@
+/*Error*/
+
 import algorea.Scanner;
 
 class Main{
