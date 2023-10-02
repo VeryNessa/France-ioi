@@ -1,4 +1,4 @@
-/*Error*/
+/*Error : Fail test 10*/
 
 import algorea.Scanner;
 
@@ -13,10 +13,8 @@ class Main {
       
       for (int i = 1; i <= nbLieux; i++){
           
-         int nbHab = entrée.nextInt();
-          
-          if (nbHab > 10000){
-             cpt = cpt +1;
+          if (entrée.nextInt()> 10000){
+             cpt += 1;
           }
        }
        System.out.print(cpt);
